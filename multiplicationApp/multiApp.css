@@ -1,0 +1,53 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+#head {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+body {
+    background-color: chocolate;
+}
+div {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+form { 
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+    color: chocolate;
+}
+form p {
+    text-align: right;
+    font-size: 18px;
+}
+form h1 {
+    font-family: cursive;
+    margin-top: 50px;
+}
+form input {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    font-size: 30px;
+}
+form button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: cursive;
+    background-color: chocolate;
+    color: white;
+}
